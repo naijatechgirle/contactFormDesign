@@ -15,16 +15,6 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <!-- captchFxn -->
-    <script type="text/javascript">
-      function onloadCallback() {
-        grecaptcha.render('myRecaptcha', {
-          sitekey: '6Le7rF0hAAAAANtE6dlijh3-73BA-qLGyw8FPtCk',
-          callback: successCallBack,
-        });
-      }
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script
       src="https://kit.fontawesome.com/bd0e4ec131.js"
       crossorigin="anonymous"
@@ -182,19 +172,11 @@
                 required
               ></textarea>
             </div>
-            <!-- captcha -->
-            <div class="col-12">
-                <div
-                  id="divRecaptcha"
-                  class="g-recaptcha"
-                  data-sitekey="6Le7rF0hAAAAANtE6dlijh3-73BA-qLGyw8FPtCk"
-                ></div>
-            </div>
 
             <div class="form-group mt-0">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                  <label class="form-check-label" for="invalidCheck">
+                  <label class="form-check-label warningCheck" for="invalidCheck">
                     By submitting this enquiry you consent to be contacted by
                     Desire Healthcare Services Limited using the details provided
                   </label>
@@ -221,7 +203,7 @@
               <!-- contact icons -->
                <i class="fa-solid fa-square-phone mb-3 mb-md-4 mt-3 mt-md-4"></i>
               0161 536 2236<br />
-              <i class="fa-solid fa-at mb-3 mb-md-4"></i>
+              <i class="fa-solid fa-envelope mb-3 mb-md-4"></i>
               care@desirehealthcare.co.uk<br />
               <i class="fa-solid fa-location-dot"></i> Head Office: 11 Cadrona
               Street, M18 7TH, Manchester<br />
@@ -248,7 +230,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -9,6 +9,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F8F8FC;
 }
+nav {
+    transition: all 0.3s ease;
+}
 .navbar-toggler, .navbar-toggler::after, form input {
     outline: none !important;
 }
@@ -18,7 +21,7 @@ body {
 .btn:hover {
     background-color: #96539A;
 }
-.fa-at, .fa-clock, .fa-square-phone, .fa-location-dot {
+.fa-at, .fa-clock, .fa-square-phone, .fa-location-dot, .fa-envelope {
     color: #844987;
     font-size: 13px;
 }
